@@ -155,6 +155,7 @@ footer a {
 }
 
 footer a:hover {
+    text-decoration: underline;
     color: var(--cor02);
     background-color: var(--cor04);
     border-radius: 5px;
