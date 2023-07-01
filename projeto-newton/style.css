@@ -99,6 +99,15 @@ figure {
     margin: auto;
 }
 
+figure a {
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+figure a:hover {
+    text-decoration: underline;
+}
+
 figcaption {
     font-size: 0.8em;
     text-align: center;
