@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css">
+    <link rel="shortcut icon" href="icons/Aniket-Suvarna-Box-Logo-Bxl-html-5.32.png" type="image/x-icon">
+    <title>Front-end</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Tópicos</header>
+        <div id="bar">
+            <a href="#HTML" class="nav-link">HTML</a>
+            <a href="#CSS" class="nav-link">CSS</a>
+            <a href="#JavaScript" class="nav-link">JavaScript</a>
+            <a href="#Node.js" class="nav-link">Node.js</a>
+            <a href="#React" class="nav-link">React</a>
+        </div>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="HTML">
+            <header>HTML<i class="fa-brands fa-html5"></i></header>
+            <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão utilizada para criar e estruturar páginas da web. É uma linguagem fundamental para o desenvolvimento web e é interpretada pelos navegadores para exibir conteúdo na forma de texto, imagens, vídeos e outros elementos interativos.</p>
+            <div class="estrutura">
+                <h3>Estrutua de um documento HTML</h3>
+                <code>
+                    <pre class="format-html">
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="pt-br"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-
+            width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+            &lt;link rel="stylesheet" href="style.css"&gt;
+            &lt;!-- Link de CSS --&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Exemplo de título&lt;/h1&gt;
+            &lt;p&gt;Exemplo de parágrafo&lt;/p&gt;
+            &lt;!-- Exemplo de comentário --&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+                    </pre>
+                </code>
+            <p>A principal característica da atual versão do HTML é o uso de tags com a intenção de atribuir significados, ou seja, o uso de semântica. Nas versões mais antigas a estrutrua de um documento HTML era feito sem atribuição de significado, da seguinte forma:</p>
+            <code>
+                <pre class="format-html">
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Site com HTML4&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body bgcolor="blue"&gt;
+            Eu moro na &lt;u&gt;Rua dos Capixabas, 229 -
+            Botafogo - RJ&lt;/u&gt;
+            &lt;marquee behavior="" direction="right"&gt;
+                Teste de Marquee
+            &lt;/marquee&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+                </pre>
+            </code>
+            </div>
+        </section>
+        <section class="main-section" id="CSS">
+            <header>CSS<i class="fa-brands fa-css3-alt"></i></header>
+            <p>CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de elementos em uma página da web. É uma das tecnologias principais para estilização e design web e trabalha em conjunto com o HTML para criar páginas web visualmente atraentes e responsivas.</p>
+            <p>Aqui estão alguns pontos-chave sobre o CSS:</p>
+            <ol>
+                <li>Seletores: O CSS usa seletores para escolher elementos HTML aos quais se aplicarão as regras de estilo. Os seletores podem ser baseados em elementos HTML, classes, IDs, atributos e outras características. Por exemplo, um seletor de classe pode ser definido como ".classe" e um seletor de ID pode ser definido como "#id".</li>
+                <li>Propriedades e valores: As propriedades CSS são usadas para definir o estilo de um elemento selecionado. Cada propriedade tem um valor associado que determina como o elemento será estilizado. Por exemplo, a propriedade "color" define a cor do texto, a propriedade "font-size" define o tamanho da fonte e assim por diante.</li>
+                <li>Regras CSS: As regras CSS consistem em um seletor, propriedades e valores. Elas são usadas para aplicar estilos a elementos HTML específicos.</li>
+            </ol>
+            <h3>Estrutua das declarações em CSS</h3>
+            <code>
+                <pre class="format">
+    /* Exemplo de comentário */
+    h1 {
+        font-size: 2em;
+        color: blue;
+    }
+
+    p {
+        color: white;
+        background-color: black;
+    }
+                </pre>
+            </code>
+            <p>Outra característica do CSS é a responsividade, o CSS permite criar layouts responsivos, adaptáveis a diferentes tamanhos de tela e dispositivos. Com o uso de regras de mídia, é possível aplicar estilos específicos para diferentes resoluções e condições de visualização, oferecendo uma experiência adequada em dispositivos móveis, tablets e desktops.</p>
+        </section>
+        <section class="main-section" id="JavaScript">
+            <header>JavaScript<i class="fa-brands fa-js"></i></header>
+            <p>JavaScript é uma linguagem de programação amplamente usada para desenvolvimento web. Ela permite a criação de conteúdo interativo e dinâmico em páginas da web, oferecendo recursos de programação para manipular elementos HTML, controlar eventos, processar dados e interagir com servidores.
+            </p>
+            <h3>Estrutua de um código em JavaScript</h3>
+            <code>
+                <pre class="format-js">
+    // Exemplo de comentário
+    let x = 1;
+    let y = 3;
+    function somar(a=0, b=0) {
+        return a + b;
+    }
+    console.log(soma(x, y)); // saída: 4
+                </pre>
+            </code>
+            <p>O JavaScript também permite que você responda a eventos do usuário, como cliques de mouse, pressionamentos de teclas e movimentos do mouse. Você pode atribuir funções JavaScript a esses eventos para criar respostas interativas, como alterar o conteúdo exibido, exibir mensagens de alerta, enviar formulários e muito mais.</p>
+            <code>
+                <pre class="format-js">
+    // Clicar em um botão
+    let botao = document.querySelector("#botao");
+    botao.addEventListener('click', function() {
+        alert('Você clicou no botão'); // exibe uma caixa de
+        diálogo quando o botão é clicado
+    });
+                </pre>
+            </code>
+            <h3>Principais conteúdos de JS</h3>
+            <ol>
+                <li>Os arrays em JavaScript são usados para armazenar uma coleção ordenada de elementos. Cada elemento em um array é identificado por um índice, começando em 0 para o primeiro elemento.</li>
+            </ol>
+            <code class="format-js">
+                <pre>
+    const frutas = ['maçã', 'banana', 'laranja'];
+
+    console.log(fruntas[0]); // saída: maçã
+
+    frutas[1] = 'morango'; // altera o valor da posição 1
+
+    frutas.push('abacaxi'); // adiciona um elemento no
+    final do array
+
+    frutas.pop(); // remove o último elemento do array
+
+    // mostrando os valores do array com forin
+    for(let i in frutas) {
+        console.log(frutas[i]);
+    }
+                </pre>
+            </code>
+            <ol start="2">
+                <li>Em JavaScript, os objetos são estruturas de dados que permitem armazenar e organizar informações de forma mais complexa do que os arrays. Eles consistem em um conjunto de propriedades, onde cada propriedade é composta por um nome (chave) e um valor associado.</li>
+            </ol>
+            <code class="format-js">
+                <pre>
+    const pessoa = {
+        nome: 'José',
+        sexo: 'M',
+        peso: 85,
+        engordar(p=0) {
+            console.log('Engordou');
+            this.peso += p;
+        }
+    };
+
+    amigo.engordar(2);
+    console.log(`${amigo.nome} pesa ${amigo.peso}Kg.`);
+                </pre>
+            </code>
+
+        </section>
+        <section class="main-section" id="Node.js">
+            <header>Node.js<i class="fa-brands fa-node-js"></i></header>
+            <p>Node.js é um ambiente de tempo de execução (runtime) de JavaScript baseado no motor V8 do Google Chrome. Ele permite que você execute código JavaScript fora do navegador, diretamente no servidor. Com o Node.js, você pode criar aplicativos de servidor, scripts de linha de comando e até mesmo aplicativos de desktop.</p>
+            <p>O Node.js é amplamente adotado pela comunidade de desenvolvedores e tem um ecossistema robusto de pacotes e bibliotecas disponíveis. Ele é usado para criar uma variedade de aplicativos, desde servidores web simples até aplicativos em tempo real complexos. Para começar a usar o Node.js, você precisará instalá-lo em seu computador e utilizar um editor de texto ou uma IDE para escrever seu código JavaScript.</p>
+        </section>
+        <section class="main-section" id="React">
+            <header>React<i class="fa-brands fa-react"></i></header>
+            <p>React é uma biblioteca JavaScript de código aberto usada para criar interfaces de usuário (UI) interativas e reutilizáveis. Desenvolvida pelo Facebook, o React permite construir aplicativos web modernos e escaláveis, com uma abordagem baseada em componentes.</p>
+            <p>O React utiliza um Virtual DOM (DOM Virtual) para atualizar eficientemente a interface do usuário. O Virtual DOM é uma representação leve da estrutura do DOM atual, que é comparada com a versão anterior para determinar as alterações necessárias. Isso resulta em atualizações mais eficientes e melhora o desempenho do aplicativo.</p>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/developerm4rco" hreflang="en" target="_blank" rel="author"><i class="fa-brands fa-github"></i>&copy;DeveloperM4rco</a></p>
+    </footer>
+</body>
+</html>
