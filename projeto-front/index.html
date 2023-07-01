@@ -75,7 +75,7 @@
             </ol>
             <h3>Estrutua das declarações em CSS</h3>
             <code>
-                <pre class="format">
+                <pre class="format-css">
     /* Exemplo de comentário */
     h1 {
         font-size: 2em;
@@ -111,10 +111,12 @@
                 <pre class="format-js">
     // Clicar em um botão
     let botao = document.querySelector("#botao");
-    botao.addEventListener('click', function() {
-        alert('Você clicou no botão'); // exibe uma caixa de
-        diálogo quando o botão é clicado
-    });
+    botao.addEventListener('click', clica()); 
+    function clica() {
+        alerta('Clicou!');
+    }
+    // exibe uma caixa de
+    diálogo quando o botão é clicado
                 </pre>
             </code>
             <h3>Principais conteúdos de JS</h3>
