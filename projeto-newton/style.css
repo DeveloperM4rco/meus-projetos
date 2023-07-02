@@ -170,3 +170,9 @@ footer a:hover {
     border-radius: 5px;
     transition: .5s;
 }
+
+@media (max-width: 500px) {
+    aside h3 {
+        font-size: 1em;
+    }
+}
