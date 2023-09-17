@@ -8,3 +8,4 @@
 <p>Acesse o projeto Rocketseat <a href="https://developerm4rco.github.io/meus-projetos/projeto-rocketseat/">aqui</a>.</p>
 <p>Acesse o projeto Front-end <a href="https://developerm4rco.github.io/meus-projetos/projeto-front/">aqui</a>.</p>
 <p>Acesse o projeto Pinguim <a href="https://developerm4rco.github.io/meus-projetos/projeto-pinguim/">aqui</a>.</p>
+<p>Acesse o projeto Galleria <a href="https://developerm4rco.github.io/meus-projetos/projeto-galleria/">aqui</a>.</p>
